@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnGuideReturnToTabbed"
+            android:src="@drawable/back"
+            >
+        </ImageView>>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="90dp"
+            android:text="使用说明"
+            android:textSize="25sp"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_guide"
+        >
+    </ListView>>
+</LinearLayout>
